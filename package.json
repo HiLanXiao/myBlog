@@ -1,0 +1,16 @@
+{
+  "name": "lanxiao_blog",
+  "version": "1.0.0",
+  "description": "lanxiao's blog will be powered by vuepress",
+  "main": "index.js",
+  "author": "lanxiao.zhang",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "2.0.0-beta.39",
+    "vuepress-theme-gungnir": "^2.0.0-alpha.22"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --clean-cache",
+    "docs:build": "vuepress build docs"
+  }
+}
