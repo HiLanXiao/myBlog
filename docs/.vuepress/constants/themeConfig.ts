@@ -1,4 +1,5 @@
 import { GungnirThemeOptions, i18n } from 'vuepress-theme-gungnir';
+import { ImagesUrl } from '../constants/images'
 export const themeConfig: Partial<GungnirThemeOptions> = {
   docsDir: 'blog',
   contributors: true,
@@ -6,26 +7,16 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
   personalInfo: {
     name: '烂笑',
     avatar: '/images/avatar.jpg',
-    description: '仰望着的小星球',
+    description: 'hope & persistence',
     sns: {
       github: 'HiLanXiao',
       email: 'langezhangsz@foxmail.com',
+      zhihu: 'pu-tao-21-50',
     },
   },
-  homeHeaderImages: [
-    {
-      path: 'https://tva2.sinaimg.cn/large/6ccee0e1gy1gxuxje4ampj21z4140agb.jpg',
-      mask: 'rgba(40, 57, 101, .2)',
-    },
-    {
-      path: 'https://tva3.sinaimg.cn/large/6ccee0e1gy1gxuxkqi0qyj217c0jwqd2.jpg',
-      mask: 'rgb(251, 170, 152, .2)',
-    },
-    {
-      path: 'https://tva3.sinaimg.cn/large/6ccee0e1gy1gxuxl4mzaij21hc0u0tfo.jpg',
-      mask: 'rgba(68, 74, 83, .2)',
-    },
-  ],
+  homeHeaderImages: Object.keys(ImagesUrl).map(key => ({
+    path: ImagesUrl[key]
+  })),
   themePlugins: {
     // only enable git plugin in production mode
     git: true,

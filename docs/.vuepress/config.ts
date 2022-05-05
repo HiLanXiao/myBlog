@@ -1,10 +1,10 @@
 import { defineUserConfig, DefaultThemeOptions } from 'vuepress';
-import { themeConfig } from './themeConfig';
+import { themeConfig } from './constants/themeConfig';
 
 export default defineUserConfig<DefaultThemeOptions>({
   base: '/',
-  title: 'title',
-  description: 'description',
+  title: 'lanxiao\'s blog',
+  description: 'home & persistence',
   theme: 'vuepress-theme-gungnir',
   themeConfig,
 });
