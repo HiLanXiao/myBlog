@@ -1,21 +1,26 @@
 import { GungnirThemeOptions, i18n } from 'vuepress-theme-gungnir';
-import { ImagesUrl } from '../constants/images'
+import { ImagesUrl, homeHeaderImages } from '../constants/images';
 export const themeConfig: Partial<GungnirThemeOptions> = {
+  navbarTitle: '⬅️ Home',
   docsDir: 'blog',
   contributors: true,
   hitokoto: 'https://v1.hitokoto.cn?c=d&c=i', // enable hitokoto (一言) or not?
   personalInfo: {
     name: '烂笑',
-    avatar: '/images/avatar.jpg',
+    avatar: ImagesUrl.avatar,
     description: 'hope & persistence',
     sns: {
       github: 'HiLanXiao',
       email: 'langezhangsz@foxmail.com',
       zhihu: 'pu-tao-21-50',
+      bilibili: {
+        icon: 'ri-bilibili-line',
+        link: 'https://space.bilibili.com/241150548',
+      },
     },
   },
-  homeHeaderImages: Object.keys(ImagesUrl).map(key => ({
-    path: ImagesUrl[key]
+  homeHeaderImages: homeHeaderImages.map((image) => ({
+    path: image,
   })),
   themePlugins: {
     // only enable git plugin in production mode
@@ -31,7 +36,7 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
   },
   footer: `
     Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
-    <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a> |
+    <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a> 
   `,
   pages: {
     tags: {
@@ -64,8 +69,23 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
           link: '/tags/',
         },
         {
-          text: '文档',
+          text: '读书笔记',
           icon: 'ri-book-2-fill',
+          children: [
+            {
+              text: '「国境以南，太阳以西」',
+              link: '/readingNotes/「国境以南，太阳以西」.html',
+            },
+          ],
+        },
+        {
+          text: '摄影相关',
+          icon: 'ri-camera-2-fill',
+          children: [],
+        },
+        {
+          text: '技术相关',
+          icon: 'ri-macbook-fill',
           children: [],
         },
       ],
