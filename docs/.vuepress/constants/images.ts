@@ -30,4 +30,8 @@ export const ImagesUrl: Record<string, string> = {
   avatar:
     'https://images.weserv.nl/?url=https://article.biliimg.com/bfs/article/704e9ec17c677fdeb28d554e43a4aeb261a1c2c7.jpg',
 };
-export const homeHeaderImages = [ImagesUrl.image7, ImagesUrl.image10, ImagesUrl.image12];
+export const homeHeaderImages = [
+  ImagesUrl.image7,
+  ImagesUrl.image10,
+  ImagesUrl.image12,
+];

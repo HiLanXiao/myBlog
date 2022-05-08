@@ -86,7 +86,16 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
         {
           text: '技术相关',
           icon: 'ri-macbook-fill',
-          children: [],
+          children: [
+            {
+              text: 'vscode  ssh-remote 配置',
+              link: '/codingWorld/vscode  ssh-remote 配置.html',
+            },
+            {
+              text: '「持续记录」Rust 学习笔记',
+              link: '/codingWorld/「持续记录」Rust 学习笔记.html',
+            },
+          ],
         },
       ],
       sidebar: [
