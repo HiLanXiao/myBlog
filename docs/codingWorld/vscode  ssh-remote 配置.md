@@ -59,11 +59,14 @@ tags:  # 博客标签（可选）
 
   ```
   Host langezhang_tencentOs
-    HostName 101.43.137.164
+    HostName 101.xxx.xxx.xxx
     User langezhang
     Port 22
     IdentityFile C:\Users\Lange\.ssh\langezhang
   ```
+- 补充
+  - 拷贝了份私钥到新 mac 上，发现 ssh 远程连接失败，check 报错信息发现是文件权限不正确
+  - 遂 `chmod 400 xxx.pem`
 
 - 总结
   - 其实也没啥好总结的...这次折腾了一会主要是因为文件归属和权限没整对.....
