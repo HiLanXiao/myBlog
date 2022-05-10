@@ -33,6 +33,12 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
     ga: 'G-8R2K3ZRCY6',
     pwa: true,
     search: false,
+    giscus: {
+      repo: 'HiLanXiao/myBlog', // 必须，string，格式：user_name/repo_name
+      repoId: 'MDEwOlJlcG9zaXRvcnkyNDI1MDgzMzk', // 必须，string，在 Giscus 官网上生成
+      category: 'Announcements', // 必须，string
+      categoryId: 'DIC_kwDODnRiM84CPB2o', // 必须，string，在 Giscus 官网上生成
+    },
   },
   footer: `
     Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
