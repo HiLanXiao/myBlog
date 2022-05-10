@@ -7,6 +7,7 @@ import {
   FaFortAwesome,
   FaSatelliteDish,
   FaTag,
+  BiSearch,
 } from 'oh-vue-icons/icons';
 addIcons(
   RiMacbookFill,
@@ -15,7 +16,8 @@ addIcons(
   FaSatelliteDish,
   FaTag,
   RiBilibiliLine,
-  RiBook2Fill
+  RiBook2Fill,
+  BiSearch
 );
 
 export default () => {};

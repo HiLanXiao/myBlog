@@ -8,7 +8,7 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
   personalInfo: {
     name: '烂笑',
     avatar: ImagesUrl.avatar,
-    description: 'hope & persistence',
+    description: '热爱摄影 & 热爱工作 & 热爱生活',
     sns: {
       github: 'HiLanXiao',
       email: 'langezhangsz@foxmail.com',
@@ -32,7 +32,16 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
     },
     ga: 'G-8R2K3ZRCY6',
     pwa: true,
-    search: false,
+    search: {
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+      },
+    },
     giscus: {
       repo: 'HiLanXiao/myBlog', // 必须，string，格式：user_name/repo_name
       repoId: 'MDEwOlJlcG9zaXRvcnkyNDI1MDgzMzk', // 必须，string，在 Giscus 官网上生成
