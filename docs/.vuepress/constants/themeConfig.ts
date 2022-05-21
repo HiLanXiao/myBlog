@@ -94,9 +94,30 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
           ],
         },
         {
-          text: '摄影相关',
+          text: '摄影日记',
           icon: 'ri-camera-2-fill',
           children: [
+            {
+              text: '摄影日记_2020_1124',
+              link: '/photographicDiary/摄影日记_2020_1124.html',
+            },
+
+            {
+              text: '摄影日记_2020_1203',
+              link: '/photographicDiary/摄影日记_2020_1203.html',
+            },
+            {
+              text: '摄影日记_2021_0323',
+              link: '/photographicDiary/摄影日记_2021_0323.html',
+            },
+            {
+              text: '摄影日记_2021_0530',
+              link: '/photographicDiary/摄影日记_2021_0530.html',
+            },
+            {
+              text: '摄影日记_2021_杂记',
+              link: '/photographicDiary/摄影日记_2021_杂记.html',
+            },
             {
               text: '摄影日记_2022_0508',
               link: '/photographicDiary/摄影日记_2022_0508.html',
