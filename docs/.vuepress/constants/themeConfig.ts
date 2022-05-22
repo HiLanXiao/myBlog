@@ -119,6 +119,22 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
               link: '/photographicDiary/摄影日记_2021_杂记.html',
             },
             {
+              text: '摄影日记_2022_02',
+              link: '/photographicDiary/摄影日记_2022_02.html',
+            },
+            {
+              text: '摄影日记_2022_0306',
+              link: '/photographicDiary/摄影日记_2022_0306.html',
+            },
+            {
+              text: '摄影日记_2022_04',
+              link: '/photographicDiary/摄影日记_2022_04.html',
+            },
+            {
+              text: '摄影日记_2022_摄影群约拍',
+              link: '/photographicDiary/摄影日记_2022_摄影群约拍.html',
+            },
+            {
               text: '摄影日记_2022_0508',
               link: '/photographicDiary/摄影日记_2022_0508.html',
             },
