@@ -56,18 +56,10 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
   `,
   pages: {
     tags: {
-      subtitle: 'Black Sheep Wall',
+      subtitle: "Some words of Lanxiao",
       bgImage: {
-        path: 'https://tva2.sinaimg.cn/large/6ccee0e1gy1gxuz06pfdpj21hc0mv78v.jpg',
-        mask: 'rgba(211, 136, 37, .5)',
-      },
-    },
-    links: {
-      subtitle:
-        'When you are looking at the stars, please put the brightest star shining night sky as my soul.',
-      bgImage: {
-        path: 'https://tvax3.sinaimg.cn/large/6ccee0e1gy1gxuz0kflemj22an0i3q5s.jpg',
-        mask: 'rgba(64, 118, 190, 0.5)',
+        path: 'https://assets.hilanxiao.com/%E6%91%84%E5%BD%B1%E6%97%A5%E8%AE%B0_2022.03.06/20220306_6.jpg',
+        mask: 'rgba(211, 136, 37, .2)',
       },
     },
   },
