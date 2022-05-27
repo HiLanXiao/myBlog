@@ -1,34 +1,34 @@
 export const ImagesUrl: Record<string, string> = {
   '202109xx_tangmao':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F202109xx_tangmao.jpg',
+    'https://assets.hilanxiao.com/images%2F202109xx_tangmao.jpg',
   '202111xx_zhuzhou':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F202111xx_zhuzhou.jpg',
+    'https://assets.hilanxiao.com/images%2F202111xx_zhuzhou.jpg',
   '20210323_wusheng':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F20210323_wusheng.jpg',
+    'https://assets.hilanxiao.com/images%2F20210323_wusheng.jpg',
   '20210530_chongqingyejing':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F20210530_chongqingyejing.jpg',
+    'https://assets.hilanxiao.com/images%2F20210530_chongqingyejing.jpg',
   '20211001_xueshan':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F20211001_xueshan.jpg',
+    'https://assets.hilanxiao.com/images%2F20211001_xueshan.jpg',
   DSC_6737:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_6737.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_6737.jpg',
   DSC_6742:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_6742.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_6742.jpg',
   DSC_7448:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_7448.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_7448.jpg',
   DSC_8105:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_8105.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_8105.jpg',
   DSC_8107:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_8107.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_8107.jpg',
   DSC_8136:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_8136.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_8136.jpg',
   DSC_8138:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2FDSC_8138.jpg',
+    'https://assets.hilanxiao.com/images%2FDSC_8138.jpg',
   '20201203_guohui':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F20201203_guohui.jpg',
+    'https://assets.hilanxiao.com/images%2F20201203_guohui.jpg',
   '20201203_panlong':
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2F20201203_panlong.jpg',
+    'https://assets.hilanxiao.com/images%2F20201203_panlong.jpg',
   avatar:
-    'https://assets-1304086516.cos.ap-nanjing.myqcloud.com/images%2Favatar.jpg',
+    'https://assets.hilanxiao.com/images%2Favatar.jpg',
 };
 export const homeHeaderImages = [
   ImagesUrl['20201203_guohui'],

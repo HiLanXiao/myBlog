@@ -51,7 +51,8 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
   },
   footer: `
     Powered by <a href="https://vuepress.vuejs.org" target="_blank">VuePress</a> &
-    <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a> 
+    <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a> <br/>
+    <a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2022013778号-1</a>
   `,
   pages: {
     tags: {
