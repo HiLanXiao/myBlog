@@ -8,7 +8,7 @@ useHeaderImage: true  # 是否在博客中显示封面图（可选，默认：fa
 headerImage: https://images.weserv.nl/?url=https://article.biliimg.com/bfs/article/f0fcc77c0f6f16d4727816ebdf010bd3496fdf5d.png  # 博客封面图（必须，即使上一项选了 false，因为图片也需要在首页显示）
 headerMask: rgba(40, 57, 101, .4)  # 封面图遮罩（可选）
 headerImageCredit: 网图  # 图片来源，比如图片作者的名字（可选，只在 "useHeaderImage: true" 时有效）
-# headerImageCreditLink: https://www.artstation.com/artwork/nLY0K  # 图片来源的链接（可选，只在 "useHeaderImage: true" 时有效）
+# headerImageCreditLink: https://hilanxiao.com/  # 图片来源的链接（可选，只在 "useHeaderImage: true" 时有效）
 tags:  # 博客标签（可选）
   - 学习笔记
   - Rust

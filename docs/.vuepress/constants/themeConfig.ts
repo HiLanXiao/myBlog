@@ -131,6 +131,10 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
               text: '摄影日记_2022_0508',
               link: '/photographicDiary/摄影日记_2022_0508.html',
             },
+            {
+              text: '摄影日记_2022_0521',
+              link: '/photographicDiary/摄影日记_2022_0521.html',
+            },
           ],
         },
         {
