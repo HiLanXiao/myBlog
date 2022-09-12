@@ -91,6 +91,14 @@ export const themeConfig: Partial<GungnirThemeOptions> = {
           icon: 'ri-camera-2-fill',
           children: [
             {
+              text: '摄影日记_2022_08_随拍',
+              link: '/photographicDiary/摄影日记_2022_08_随拍.html',
+            },
+            {
+              text: '摄影日记_2022_07_公司约拍',
+              link: '/photographicDiary/摄影日记_2022_07_公司约拍.html',
+            },
+            {
               text: '摄影日记_2020_1124',
               link: '/photographicDiary/摄影日记_2020_1124.html',
             },
